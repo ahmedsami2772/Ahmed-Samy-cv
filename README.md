@@ -6,10 +6,10 @@
     <title>Ahmed Samy's CV</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #f0f0f0;
+            background-color: #f4f4f4;
             color: #333;
         }
         .container {
@@ -17,39 +17,30 @@
             margin: auto;
             background: white;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-            animation: fadeIn 1s ease-in-out;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s;
         }
         h1, h2, h3 {
             color: #007bff;
-            margin-bottom: 10px;
         }
         h1 {
             font-size: 2.5em;
             text-align: center;
+            margin-bottom: 10px;
         }
         p, ul {
             line-height: 1.6;
-            margin: 10px 0;
         }
         ul {
             padding-left: 20px;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        a:hover {
-            color: #0056b3;
         }
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
         }
         .section {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             animation: slideIn 0.5s forwards;
             opacity: 0;
         }
@@ -69,24 +60,18 @@
         .section:nth-child(even) {
             animation-delay: 0.4s;
         }
-        .contact-info {
-            text-align: center;
-            margin-bottom: 20px;
-        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Ahmed Samy</h1>
-        <div class="contact-info">
-            <p>Email: <a href="mailto:ahmedsami2772@gmail.com">ahmedsami2772@gmail.com</a></p>
-            <p>Phone: <a href="tel:01115749326">01115749326</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/ahmed-samy2772/">Profile</a></p>
-        </div>
+        <p>Email: <a href="mailto:ahmedsami2772@gmail.com">ahmedsami2772@gmail.com</a></p>
+        <p>Phone: 01115749326</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ahmed-samy2772/">Profile</a></p>
 
         <div class="section">
             <h2>Summary</h2>
-            <p>Technical background with a Bachelor of Commerce (Accounting). Experienced in account management and e-commerce coordination. Passionate about career growth and contributing to team success.</p>
+            <p>Coming from a technical educational background with a Bachelor of Commerce (Accounting) and landed an Account Assistant (Sales) through Training and recruitment. Worked with 10 cross-functional teams and coordinated with various business partners toward the successful growth of an e-commerce company.</p>
         </div>
 
         <div class="section">
@@ -94,13 +79,13 @@
             <h3>Amazon</h3>
             <p><strong>Account Representative</strong> | 01/2024 – Present | Cairo, Egypt</p>
             <ul>
-                <li>Leading diverse projects and expanding business initiatives.</li>
+                <li>Expanding working across different projects and leading business projects.</li>
             </ul>
             <p><strong>Account Assistant</strong> | 06/2022 – Present | Cairo, Egypt</p>
             <ul>
-                <li>Analyzed account deactivation trends, reducing future issues by 40%.</li>
-                <li>Resolved over 200 enforced accounts through detailed audits.</li>
-                <li>Improved seller retention rates by delivering actionable insights.</li>
+                <li>Conducted a detailed analysis of account deactivation trends on the EG marketplace, reducing future deactivations by 40%.</li>
+                <li>Resolved 200+ enforced accounts through thorough audits.</li>
+                <li>Delivered analyses to drive +70% retention for terminated sellers.</li>
             </ul>
         </div>
 
@@ -108,8 +93,8 @@
             <h3>Al-Hassan Foundation</h3>
             <p><strong>Training and Recruitment Coordinator</strong> | 01/2021 – 06/2022 | Giza</p>
             <ul>
-                <li>Implemented process re-engineering to streamline services.</li>
-                <li>Coordinated effectively between service providers and beneficiaries.</li>
+                <li>Managed a process re-engineering project to improve service processes.</li>
+                <li>Coordinated between service providers and beneficiaries.</li>
             </ul>
         </div>
 
@@ -123,9 +108,9 @@
         <div class="section">
             <h2>Skills</h2>
             <ul>
-                <li>Proficient in Microsoft Office Suite</li>
-                <li>Strong active listening and cognitive flexibility</li>
-                <li>Effective public speaking and presentation skills</li>
+                <li>Excellent computer literacy (Microsoft Office)</li>
+                <li>Active listening and cognitive flexibility</li>
+                <li>Public speaking and event speaking</li>
             </ul>
         </div>
 
